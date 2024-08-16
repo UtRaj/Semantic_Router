@@ -71,3 +71,8 @@ The HuggingFaceEncoder is used to encode the input text. The RouteLayer class th
 
 ### Gradio Interface
 The Gradio interface is defined using gr.Interface, which takes the classification function (classify_text) as its main function. The interface accepts text input and returns the name of the route as output.
+
+## Links
+
+[Semantic Router on Hugging Face](https://huggingface.co/spaces/Rajut/Semantic_router)
+
