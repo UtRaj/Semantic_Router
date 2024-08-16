@@ -66,8 +66,8 @@ The interface will classify these inputs into their respective categories.
 
 Routes are defined using the Route class from the semantic_router library. Each route is identified by a name and a list of utterances that are representative of the content that should be classified under this route.
 
-## Encoding and Classification
+### Encoding and Classification
 The HuggingFaceEncoder is used to encode the input text. The RouteLayer class then uses these encodings to determine which route the input text best matches.
 
-## Gradio Interface
+### Gradio Interface
 The Gradio interface is defined using gr.Interface, which takes the classification function (classify_text) as its main function. The interface accepts text input and returns the name of the route as output.
