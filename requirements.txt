@@ -1,0 +1,2 @@
+gradio
+semantic-router[local]==0.0.20
